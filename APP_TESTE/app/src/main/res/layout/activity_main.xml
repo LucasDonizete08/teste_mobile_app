@@ -67,7 +67,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/faq_answer1"
+                android:text="teste111"
                 android:paddingLeft="10dp"/>
         </LinearLayout>
         <!--  Segunda pergunta  -->
@@ -116,7 +116,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/faq_answer1"
+                android:text="teste 2"
                 android:paddingLeft="10dp"/>
         </LinearLayout>
 
@@ -131,7 +131,7 @@
             android:layout_marginTop="400dp"
             android:background="@drawable/border_radius_black"
             android:gravity="center"
-            android:onClick="teste1"
+            android:onClick="teste3"
             android:paddingVertical="10sp"
             tools:ignore="MissingConstraints">
 
@@ -156,6 +156,24 @@
 
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/resposta_3"
+            android:layout_width="350dp"
+            android:layout_height="85dp"
+            android:background="@drawable/border_radius_black_white"
+            android:orientation="horizontal"
+            android:paddingVertical="10sp"
+            android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="teste 3"
+            android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+
 
 
     </RelativeLayout>
